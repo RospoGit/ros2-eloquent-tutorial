@@ -1,0 +1,39 @@
+from setuptools import setup
+
+package_name = 'my_py_pkg'
+
+setup(
+    name=package_name,
+    version='0.0.0',
+    packages=[package_name],
+    data_files=[
+        ('share/ament_index/resource_index/packages',
+            ['resource/' + package_name]),
+        ('share/' + package_name, ['package.xml']),
+    ],
+    install_requires=['setuptools'],
+    zip_safe=True,
+    maintainer='emanuele',
+    maintainer_email='emanuele@todo.todo',
+    description='TODO: Package description',
+    license='TODO: License declaration',
+    tests_require=['pytest'],
+    entry_points={
+        'console_scripts': [
+            # Here I define how the node will be install -> node_name = package.py_file:function_name
+            # I can run it with ./py_node from ~/ros2_ws/install/my_py_pkg/lib/my_py_pkg OR
+            # ros2 run my_py_pkg py_node
+            "py_node = my_py_pkg.my_first_node:main",
+            "robot_news_station = my_py_pkg.robot_news_station:main",
+            "smartphone = my_py_pkg.smartphone:main",
+            "number_publisher = my_py_pkg.number_publisher:main",
+            "number_counter = my_py_pkg.number_counter:main",
+            "add_two_ints_server = my_py_pkg.add_two_ints_server:main",
+            "add_two_ints_client_no_oop = my_py_pkg.add_two_ints_client_no_oop:main",
+            "add_two_ints_client = my_py_pkg.add_two_ints_client:main",
+            "hardware_status_publisher = my_py_pkg.hardware_status_publisher:main",
+            "battery = my_py_pkg.battery:main",
+            "led_panel = my_py_pkg.led_panel:main"
+        ],
+    },
+)

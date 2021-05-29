@@ -1,0 +1,114 @@
+[0.020s] Invoking command in '/home/emanuele/ros2_ws/src/my_cpp_pkg/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emanuele/ros2_ws/install/my_py_pkg:/opt/ros/eloquent /usr/bin/cmake /home/emanuele/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/emanuele/ros2_ws/src/my_cpp_pkg/install/my_cpp_pkg
+[0.083s] -- The C compiler identification is GNU 7.5.0
+[0.140s] -- The CXX compiler identification is GNU 7.5.0
+[0.143s] -- Check for working C compiler: /usr/bin/cc
+[0.224s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.224s] -- Detecting C compiler ABI info
+[0.306s] -- Detecting C compiler ABI info - done
+[0.311s] -- Detecting C compile features
+[0.552s] -- Detecting C compile features - done
+[0.553s] -- Check for working CXX compiler: /usr/bin/c++
+[0.638s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.638s] -- Detecting CXX compiler ABI info
+[0.731s] -- Detecting CXX compiler ABI info - done
+[0.736s] -- Detecting CXX compile features
+[1.123s] -- Detecting CXX compile features - done
+[1.124s] -- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[1.155s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.155s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.370s] -- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)
+[1.391s] -- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[1.435s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[1.438s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.439s] -- Looking for pthread.h
+[1.521s] -- Looking for pthread.h - found
+[1.521s] -- Looking for pthread_create
+[1.606s] -- Looking for pthread_create - not found
+[1.606s] -- Looking for pthread_create in pthreads
+[1.677s] -- Looking for pthread_create in pthreads - not found
+[1.678s] -- Looking for pthread_create in pthread
+[1.767s] -- Looking for pthread_create in pthread - found
+[1.768s] -- Found Threads: TRUE  
+[1.811s] -- Found std_msgs: 0.8.1 (/opt/ros/eloquent/share/std_msgs/cmake)
+[1.818s] -- Found example_interfaces: 0.7.1 (/opt/ros/eloquent/share/example_interfaces/cmake)
+[2.083s] -- Configuring done
+[2.180s] -- Generating done
+[2.183s] -- Build files have been written to: /home/emanuele/ros2_ws/src/my_cpp_pkg/build/my_cpp_pkg
+[2.187s] Invoked command in '/home/emanuele/ros2_ws/src/my_cpp_pkg/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emanuele/ros2_ws/install/my_py_pkg:/opt/ros/eloquent /usr/bin/cmake /home/emanuele/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/emanuele/ros2_ws/src/my_cpp_pkg/install/my_cpp_pkg
+[2.190s] Invoking command in '/home/emanuele/ros2_ws/src/my_cpp_pkg/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emanuele/ros2_ws/install/my_py_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/emanuele/ros2_ws/src/my_cpp_pkg/build/my_cpp_pkg -- -j6 -l6
+[2.243s] [35m[1mScanning dependencies of target robot_news_station[0m
+[2.246s] [35m[1mScanning dependencies of target add_two_ints_client_no_oop[0m
+[2.247s] [35m[1mScanning dependencies of target number_publisher[0m
+[2.248s] [35m[1mScanning dependencies of target add_two_ints_server[0m
+[2.255s] [35m[1mScanning dependencies of target cpp_node[0m
+[2.275s] [35m[1mScanning dependencies of target number_counter[0m
+[2.297s] [  6%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[0m
+[2.300s] [ 12%] [32mBuilding CXX object CMakeFiles/add_two_ints_client_no_oop.dir/src/add_two_ints_client_no_oop.cpp.o[0m
+[2.304s] [ 18%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[2.306s] [ 25%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[2.314s] [ 31%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[2.348s] [ 37%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[6.300s] [ 43%] [32m[1mLinking CXX executable cpp_node[0m
+[6.534s] [ 43%] Built target cpp_node
+[6.612s] [35m[1mScanning dependencies of target add_two_ints_client[0m
+[6.847s] [ 50%] [32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o[0m
+[6.865s] [ 56%] [32m[1mLinking CXX executable add_two_ints_server[0m
+[7.163s] [ 56%] Built target add_two_ints_server
+[7.190s] [35m[1mScanning dependencies of target smartphone[0m
+[7.321s] [ 62%] [32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o[0m
+[7.511s] [ 68%] [32m[1mLinking CXX executable add_two_ints_client_no_oop[0m
+[7.865s] [ 68%] Built target add_two_ints_client_no_oop
+[7.945s] [ 75%] [32m[1mLinking CXX executable number_publisher[0m
+[8.191s] [ 75%] Built target number_publisher
+[8.299s] [ 81%] [32m[1mLinking CXX executable robot_news_station[0m
+[8.514s] [ 81%] Built target robot_news_station
+[9.330s] [ 87%] [32m[1mLinking CXX executable number_counter[0m
+[9.565s] [ 87%] Built target number_counter
+[9.879s] [ 93%] [32m[1mLinking CXX executable add_two_ints_client[0m
+[10.043s] [ 93%] Built target add_two_ints_client
+[11.031s] [100%] [32m[1mLinking CXX executable smartphone[0m
+[11.243s] [100%] Built target smartphone
+[11.260s] Invoked command in '/home/emanuele/ros2_ws/src/my_cpp_pkg/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emanuele/ros2_ws/install/my_py_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/emanuele/ros2_ws/src/my_cpp_pkg/build/my_cpp_pkg -- -j6 -l6
+[11.324s] Invoking command in '/home/emanuele/ros2_ws/src/my_cpp_pkg/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emanuele/ros2_ws/install/my_py_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/emanuele/ros2_ws/src/my_cpp_pkg/build/my_cpp_pkg --target install -- -j6 -l6
+[11.397s] [ 12%] Built target number_publisher
+[11.401s] [ 25%] Built target number_counter
+[11.404s] [ 37%] Built target add_two_ints_client_no_oop
+[11.405s] [ 50%] Built target add_two_ints_server
+[11.409s] [ 62%] Built target cpp_node
+[11.411s] [ 75%] Built target robot_news_station
+[11.431s] [ 87%] Built target add_two_ints_client
+[11.435s] [100%] Built target smartphone
+[11.464s] [36mInstall the project...[0m
+[11.469s] -- Install configuration: ""
+[11.469s] -- Installing: /home/emanuele/ros2_ws/src/my_cpp_pkg/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[11.470s] -- Set runtime path of "/home/emanuele/ros2_ws/src/my_cpp_pkg/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""
+[11.470s] -- Installing: /home/emanuele/ros2_ws/src/my_cpp_pkg/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[11.472s] -- Set runtime path of "/home/emanuele/ros2_ws/src/my_cpp_pkg/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station" to ""
+[11.472s] -- Installing: /home/emanuele/ros2_ws/src/my_cpp_pkg/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[11.476s] -- Set runtime path of "/home/emanuele/ros2_ws/src/my_cpp_pkg/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone" to ""
+[11.476s] -- Installing: /home/emanuele/ros2_ws/src/my_cpp_pkg/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter
+[11.477s] -- Set runtime path of "/home/emanuele/ros2_ws/src/my_cpp_pkg/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter" to ""
+[11.478s] -- Installing: /home/emanuele/ros2_ws/src/my_cpp_pkg/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher
+[11.479s] -- Set runtime path of "/home/emanuele/ros2_ws/src/my_cpp_pkg/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher" to ""
+[11.479s] -- Installing: /home/emanuele/ros2_ws/src/my_cpp_pkg/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[11.480s] -- Set runtime path of "/home/emanuele/ros2_ws/src/my_cpp_pkg/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server" to ""
+[11.481s] -- Installing: /home/emanuele/ros2_ws/src/my_cpp_pkg/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop
+[11.482s] -- Set runtime path of "/home/emanuele/ros2_ws/src/my_cpp_pkg/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop" to ""
+[11.482s] -- Installing: /home/emanuele/ros2_ws/src/my_cpp_pkg/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client
+[11.483s] -- Set runtime path of "/home/emanuele/ros2_ws/src/my_cpp_pkg/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client" to ""
+[11.483s] -- Installing: /home/emanuele/ros2_ws/src/my_cpp_pkg/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[11.483s] -- Installing: /home/emanuele/ros2_ws/src/my_cpp_pkg/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[11.483s] -- Installing: /home/emanuele/ros2_ws/src/my_cpp_pkg/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[11.484s] -- Installing: /home/emanuele/ros2_ws/src/my_cpp_pkg/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[11.484s] -- Installing: /home/emanuele/ros2_ws/src/my_cpp_pkg/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[11.484s] -- Installing: /home/emanuele/ros2_ws/src/my_cpp_pkg/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[11.484s] -- Installing: /home/emanuele/ros2_ws/src/my_cpp_pkg/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[11.484s] -- Installing: /home/emanuele/ros2_ws/src/my_cpp_pkg/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[11.484s] -- Installing: /home/emanuele/ros2_ws/src/my_cpp_pkg/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[11.484s] -- Installing: /home/emanuele/ros2_ws/src/my_cpp_pkg/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[11.485s] -- Installing: /home/emanuele/ros2_ws/src/my_cpp_pkg/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[11.485s] -- Installing: /home/emanuele/ros2_ws/src/my_cpp_pkg/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[11.485s] -- Installing: /home/emanuele/ros2_ws/src/my_cpp_pkg/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[11.485s] -- Installing: /home/emanuele/ros2_ws/src/my_cpp_pkg/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[11.485s] -- Installing: /home/emanuele/ros2_ws/src/my_cpp_pkg/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[11.490s] Invoked command in '/home/emanuele/ros2_ws/src/my_cpp_pkg/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emanuele/ros2_ws/install/my_py_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/emanuele/ros2_ws/src/my_cpp_pkg/build/my_cpp_pkg --target install -- -j6 -l6
